@@ -1,0 +1,2033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website & App Features Checklist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/gaia_logo.jpeg" alt="Gaia Logo" class="nav-logo">
+                <span>Feature Checklist</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" data-page="1">UX</a>
+                <a href="#" data-page="2">UI</a>
+                <a href="#" data-page="3">Content</a>
+                <a href="#" data-page="4">Functional</a>
+                <a href="#" data-page="5">Performance</a>
+                <a href="#" data-page="6">Security</a>
+                <a href="#" data-page="7">Admin</a>
+                <a href="#" data-page="8">E-Comm</a>
+                <a href="#" data-page="9">Communication</a>
+                <a href="#" data-page="10" class="summary-link">Summary</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-logo-container">
+            <img src="assets/gaia_logo.jpeg" alt="Gaia Logo" class="hero-logo">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Website & App Features</h1>
+            <p class="hero-subtitle">Comprehensive checklist for building modern web applications</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Page 1: User Experience -->
+        <section id="page-1" class="page active">
+            <div class="page-header">
+                <h1>User Experience</h1>
+                <p class="page-description">Features that enhance the overall user journey and interaction quality</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Animations and transitions">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Animations and transitions</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-animation">
+                            <div class="anim-box"></div>
+                            <div class="anim-box delay-1"></div>
+                            <div class="anim-box delay-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Back-to-top button">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Back-to-top button</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-back-to-top">
+                            <div class="sample-page-content">
+                                <div class="content-line"></div>
+                                <div class="content-line short"></div>
+                                <div class="content-line"></div>
+                            </div>
+                            <div class="sample-btn-top">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="18 15 12 9 6 15"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Breadcrumb navigation">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Breadcrumb navigation</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-breadcrumb">
+                            <span>Home</span>
+                            <span class="sep">/</span>
+                            <span>Products</span>
+                            <span class="sep">/</span>
+                            <span class="current">Details</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Dark/light mode toggle">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Dark/light mode toggle</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-dark-light">
+                            <div class="mode-box light-mode">
+                                <div class="sun-icon"></div>
+                            </div>
+                            <div class="mode-toggle"></div>
+                            <div class="mode-box dark-mode">
+                                <div class="moon-icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Error handling/404 pages">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Error handling/404 pages</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-404">
+                            <div class="error-code">404</div>
+                            <div class="error-text">Page not found</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Guided tours/onboarding">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Guided tours/onboarding</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-onboarding">
+                            <div class="tour-highlight"></div>
+                            <div class="tour-tooltip">
+                                <div class="tooltip-arrow"></div>
+                                <span>Click here!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Loading states/spinners/skeleton screens">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Loading states/spinners/skeleton screens</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-loading">
+                            <div class="spinner"></div>
+                            <div class="skeleton-lines">
+                                <div class="skeleton-line"></div>
+                                <div class="skeleton-line short"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Multi-language support (i18n)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Multi-language support (i18n)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-i18n">
+                            <div class="lang-option active">EN</div>
+                            <div class="lang-option">ES</div>
+                            <div class="lang-option">FR</div>
+                            <div class="lang-option">JP</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Pagination">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Pagination</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-pagination">
+                            <span class="page-btn prev">&lt;</span>
+                            <span class="page-num">1</span>
+                            <span class="page-num active">2</span>
+                            <span class="page-num">3</span>
+                            <span class="page-btn next">&gt;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Progress indicators">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Progress indicators</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill"></div>
+                            </div>
+                            <div class="progress-steps">
+                                <div class="step done"></div>
+                                <div class="step done"></div>
+                                <div class="step active"></div>
+                                <div class="step"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Responsive breakpoints">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Responsive breakpoints</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-responsive">
+                            <div class="device desktop"></div>
+                            <div class="device tablet"></div>
+                            <div class="device mobile"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Scroll effects (parallax, reveal)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Scroll effects (parallax, reveal)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-parallax">
+                            <div class="parallax-layer back"></div>
+                            <div class="parallax-layer mid"></div>
+                            <div class="parallax-layer front"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Sticky headers">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Sticky headers</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-sticky">
+                            <div class="sticky-header">Header</div>
+                            <div class="sticky-content">
+                                <div class="content-line"></div>
+                                <div class="content-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="Tooltips and popovers">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Tooltips and popovers</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-tooltip">
+                            <div class="tooltip-trigger">Hover me</div>
+                            <div class="tooltip-box">
+                                <div class="tooltip-arrow-up"></div>
+                                Helpful info!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="User Experience" data-feature="User feedback (success/error messages)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">User feedback (success/error messages)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-feedback">
+                            <div class="feedback-msg success">Success!</div>
+                            <div class="feedback-msg error">Error!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 2: UI Components -->
+        <section id="page-2" class="page">
+            <div class="page-header">
+                <h1>UI Components</h1>
+                <p class="page-description">Reusable interface elements and building blocks</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Accordions/collapsible sections">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Accordions/collapsible sections</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-accordion">
+                            <div class="accordion-item expanded">
+                                <div class="accordion-header">Section 1 <span>-</span></div>
+                                <div class="accordion-content"></div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">Section 2 <span>+</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Badges and labels">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Badges and labels</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-badges">
+                            <span class="badge badge-primary">New</span>
+                            <span class="badge badge-success">Active</span>
+                            <span class="badge badge-warning">Pending</span>
+                            <span class="badge badge-danger">3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Breadcrumbs">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Breadcrumbs</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-breadcrumb">
+                            <span>Home</span>
+                            <span class="sep">&gt;</span>
+                            <span>Category</span>
+                            <span class="sep">&gt;</span>
+                            <span class="current">Item</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Call-to-action (CTA) buttons">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Call-to-action (CTA) buttons</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-cta">
+                            <div class="cta-btn primary">Get Started</div>
+                            <div class="cta-btn secondary">Learn More</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Cards">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Cards</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-card">
+                            <div class="card-image"></div>
+                            <div class="card-body">
+                                <div class="card-title"></div>
+                                <div class="card-text"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Carousels/sliders">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Carousels/sliders</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-carousel">
+                            <div class="carousel-arrow left">&lt;</div>
+                            <div class="carousel-slides">
+                                <div class="slide"></div>
+                                <div class="slide active"></div>
+                                <div class="slide"></div>
+                            </div>
+                            <div class="carousel-arrow right">&gt;</div>
+                            <div class="carousel-dots">
+                                <span class="dot"></span>
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Dropdown menus">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Dropdown menus</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-dropdown">
+                            <div class="dropdown-trigger">Select <span class="caret">v</span></div>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-item">Option 1</div>
+                                <div class="dropdown-item">Option 2</div>
+                                <div class="dropdown-item">Option 3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Footer">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Footer</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-footer">
+                            <div class="footer-cols">
+                                <div class="footer-col"></div>
+                                <div class="footer-col"></div>
+                                <div class="footer-col"></div>
+                            </div>
+                            <div class="footer-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Forms (input fields, checkboxes, radio buttons)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Forms (input fields, checkboxes, radio buttons)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-form">
+                            <div class="form-input"></div>
+                            <div class="form-row">
+                                <div class="form-checkbox checked"></div>
+                                <div class="form-radio"></div>
+                                <div class="form-radio selected"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Hero image/hero section">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Hero image/hero section</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-hero">
+                            <div class="hero-text">
+                                <div class="hero-title"></div>
+                                <div class="hero-subtitle"></div>
+                            </div>
+                            <div class="hero-cta"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Icons and icon libraries">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Icons and icon libraries</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-icons">
+                            <div class="icon-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                            </div>
+                            <div class="icon-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                            </div>
+                            <div class="icon-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            </div>
+                            <div class="icon-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Modal/popup windows">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Modal/popup windows</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-modal">
+                            <div class="modal-backdrop"></div>
+                            <div class="modal-box">
+                                <div class="modal-header">
+                                    <span>Modal Title</span>
+                                    <span class="close">x</span>
+                                </div>
+                                <div class="modal-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Navigation bar (nav bar)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Navigation bar (nav bar)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-navbar">
+                            <div class="navbar-logo"></div>
+                            <div class="navbar-links">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Off-canvas/hamburger menu">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Off-canvas/hamburger menu</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-hamburger">
+                            <div class="hamburger-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="offcanvas-menu">
+                                <div class="menu-item"></div>
+                                <div class="menu-item"></div>
+                                <div class="menu-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Sidebar">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Sidebar</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-sidebar-layout">
+                            <div class="sidebar">
+                                <div class="sidebar-item"></div>
+                                <div class="sidebar-item active"></div>
+                                <div class="sidebar-item"></div>
+                            </div>
+                            <div class="main-area"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Tables (data tables)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Tables (data tables)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-table">
+                            <div class="table-header">
+                                <span>Name</span>
+                                <span>Status</span>
+                                <span>Date</span>
+                            </div>
+                            <div class="table-row">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="table-row">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Tabs">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Tabs</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-tabs">
+                            <div class="tabs-header">
+                                <span class="tab active">Tab 1</span>
+                                <span class="tab">Tab 2</span>
+                                <span class="tab">Tab 3</span>
+                            </div>
+                            <div class="tab-content"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="UI Components" data-feature="Toast notifications">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Toast notifications</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-toast">
+                            <div class="toast-item success">
+                                <span class="toast-icon">i</span>
+                                <span>Saved!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 3: Content & Media -->
+        <section id="page-3" class="page">
+            <div class="page-header">
+                <h1>Content & Media</h1>
+                <p class="page-description">Rich media and content presentation features</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Audio players">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Audio players</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-audio">
+                            <div class="audio-play">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                            </div>
+                            <div class="audio-progress">
+                                <div class="audio-bar"></div>
+                            </div>
+                            <span class="audio-time">2:45</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Blog/news section">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Blog/news section</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-blog">
+                            <div class="blog-post">
+                                <div class="blog-thumb"></div>
+                                <div class="blog-content">
+                                    <div class="blog-title"></div>
+                                    <div class="blog-date">Jan 15, 2025</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Case studies/portfolio">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Case studies/portfolio</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-portfolio">
+                            <div class="portfolio-item"></div>
+                            <div class="portfolio-item"></div>
+                            <div class="portfolio-item"></div>
+                            <div class="portfolio-item"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Document viewers (PDF, etc.)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Document viewers (PDF, etc.)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-doc">
+                            <div class="doc-preview">
+                                <div class="doc-icon">PDF</div>
+                                <div class="doc-lines">
+                                    <div class="doc-line"></div>
+                                    <div class="doc-line"></div>
+                                    <div class="doc-line short"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Download center">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Download center</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-download">
+                            <div class="download-item">
+                                <div class="file-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                                </div>
+                                <span>file.zip</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Event calendars">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Event calendars</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-calendar">
+                            <div class="cal-header">January 2025</div>
+                            <div class="cal-grid">
+                                <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+                                <span></span><span></span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+                                <span>6</span><span class="event">7</span><span>8</span><span>9</span><span class="today">10</span><span>11</span><span>12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="FAQ section">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">FAQ section</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-faq">
+                            <div class="faq-item expanded">
+                                <div class="faq-q">Q: How does it work?</div>
+                                <div class="faq-a">A: Simple answer...</div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-q">Q: What is included?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Image galleries">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Image galleries</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-gallery">
+                            <div class="gallery-item large"></div>
+                            <div class="gallery-item"></div>
+                            <div class="gallery-item"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Infographics">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Infographics</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-infographic">
+                            <div class="info-chart">
+                                <div class="bar" style="height: 60%"></div>
+                                <div class="bar" style="height: 80%"></div>
+                                <div class="bar" style="height: 45%"></div>
+                                <div class="bar" style="height: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Live chat widget">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Live chat widget</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-chat-widget">
+                            <div class="chat-bubble">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Maps integration (Google Maps, etc.)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Maps integration (Google Maps, etc.)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-map">
+                            <div class="map-pin">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3" fill="white"/></svg>
+                            </div>
+                            <div class="map-grid"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Podcasts/media feeds">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Podcasts/media feeds</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-podcast">
+                            <div class="podcast-cover"></div>
+                            <div class="podcast-info">
+                                <div class="podcast-title"></div>
+                                <div class="podcast-ep">Episode 45</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Social media feeds/integration">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Social media feeds/integration</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-social">
+                            <div class="social-icons">
+                                <span class="social-icon fb">f</span>
+                                <span class="social-icon tw">X</span>
+                                <span class="social-icon ig">in</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Team/staff profiles">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Team/staff profiles</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-team">
+                            <div class="team-member">
+                                <div class="member-avatar"></div>
+                                <div class="member-name"></div>
+                                <div class="member-role">Developer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Testimonials/reviews">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Testimonials/reviews</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-testimonial">
+                            <div class="quote">"</div>
+                            <div class="testimonial-text"></div>
+                            <div class="testimonial-author">- John D.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Video integration (YouTube, Vimeo, native)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Video integration (YouTube, Vimeo, native)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-video">
+                            <div class="video-thumb"></div>
+                            <div class="play-btn">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Content & Media" data-feature="Webinars/live streaming">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Webinars/live streaming</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-webinar">
+                            <div class="live-badge">LIVE</div>
+                            <div class="webinar-preview"></div>
+                            <div class="viewer-count">152 watching</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 4: Functional Features -->
+        <section id="page-4" class="page">
+            <div class="page-header">
+                <h1>Functional Features</h1>
+                <p class="page-description">Core interactive capabilities and system functions</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Advanced search/filtering">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Advanced search/filtering</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-search">
+                            <div class="search-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                                <span>Search...</span>
+                            </div>
+                            <div class="filter-tags">
+                                <span class="tag">Category</span>
+                                <span class="tag">Price</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Analytics tracking">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Analytics tracking</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-analytics">
+                            <div class="analytics-chart">
+                                <svg viewBox="0 0 60 30"><polyline points="0,25 15,20 30,10 45,15 60,5" fill="none" stroke="#2563eb" stroke-width="2"/></svg>
+                            </div>
+                            <div class="analytics-stats">
+                                <span>1.2K</span>
+                                <span class="up">+12%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="API integration">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">API integration</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-api">
+                            <div class="api-code">
+                                <span class="method">GET</span>
+                                <span class="endpoint">/api/v1/data</span>
+                            </div>
+                            <div class="api-response">{...}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Appointment/booking system">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Appointment/booking system</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-booking">
+                            <div class="booking-slots">
+                                <span class="slot">9:00</span>
+                                <span class="slot booked">10:00</span>
+                                <span class="slot selected">11:00</span>
+                            </div>
+                            <div class="book-btn">Book Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Comments/discussion threads">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Comments/discussion threads</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-comments">
+                            <div class="comment">
+                                <div class="comment-avatar"></div>
+                                <div class="comment-body">
+                                    <div class="comment-text"></div>
+                                    <span class="reply">Reply</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Contact forms">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Contact forms</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-contact">
+                            <div class="contact-field">
+                                <span>Name</span>
+                            </div>
+                            <div class="contact-field">
+                                <span>Email</span>
+                            </div>
+                            <div class="contact-btn">Send</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Cookie consent management">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Cookie consent management</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-cookie">
+                            <div class="cookie-banner">
+                                <span>We use cookies</span>
+                                <div class="cookie-btns">
+                                    <span class="accept">Accept</span>
+                                    <span class="decline">Decline</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Data export (CSV, PDF)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Data export (CSV, PDF)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-export">
+                            <div class="export-options">
+                                <span class="export-btn">CSV</span>
+                                <span class="export-btn">PDF</span>
+                                <span class="export-btn">Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Email subscription/newsletter signup">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Email subscription/newsletter signup</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-newsletter">
+                            <div class="newsletter-input">
+                                <span>your@email.com</span>
+                            </div>
+                            <div class="subscribe-btn">Subscribe</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="File upload capability">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">File upload capability</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-upload">
+                            <div class="upload-zone">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                                <span>Drop files</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Geolocation services">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Geolocation services</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-geo">
+                            <div class="geo-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
+                            </div>
+                            <span>New York, USA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Multi-step wizards">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Multi-step wizards</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-wizard">
+                            <div class="wizard-steps">
+                                <div class="wiz-step done">1</div>
+                                <div class="wiz-line done"></div>
+                                <div class="wiz-step active">2</div>
+                                <div class="wiz-line"></div>
+                                <div class="wiz-step">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Notifications/alerts (push, email, SMS)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Notifications/alerts (push, email, SMS)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-notification">
+                            <div class="notif-bell">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                                <span class="notif-badge">3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Payment integration (Stripe, PayPal, etc.)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Payment integration (Stripe, PayPal, etc.)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-payment">
+                            <div class="payment-card">
+                                <div class="card-chip"></div>
+                                <span>**** 4242</span>
+                            </div>
+                            <div class="pay-btn">Pay $99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Print-friendly views">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Print-friendly views</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-print">
+                            <div class="print-page">
+                                <div class="print-line"></div>
+                                <div class="print-line"></div>
+                                <div class="print-line short"></div>
+                            </div>
+                            <div class="print-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="QR code generation">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">QR code generation</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-qr">
+                            <div class="qr-code">
+                                <div class="qr-pattern"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Rating/voting system">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Rating/voting system</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-rating">
+                            <div class="stars">
+                                <span class="star filled">*</span>
+                                <span class="star filled">*</span>
+                                <span class="star filled">*</span>
+                                <span class="star filled">*</span>
+                                <span class="star">*</span>
+                            </div>
+                            <span class="rating-text">4.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Reporting/dashboard">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Reporting/dashboard</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-dashboard">
+                            <div class="dash-cards">
+                                <div class="dash-card">
+                                    <span>Users</span>
+                                    <span class="dash-num">1.2K</span>
+                                </div>
+                                <div class="dash-card">
+                                    <span>Sales</span>
+                                    <span class="dash-num">$5K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Sharing functionality">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Sharing functionality</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-share">
+                            <div class="share-btn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                            </div>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Shopping cart/wishlist">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Shopping cart/wishlist</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-cart">
+                            <div class="cart-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                                <span class="cart-badge">2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="User authentication/login">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">User authentication/login</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-login">
+                            <div class="login-form">
+                                <div class="login-field">Email</div>
+                                <div class="login-field">Password</div>
+                                <div class="login-btn">Sign In</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="User dashboard/profile">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">User dashboard/profile</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-profile">
+                            <div class="profile-header">
+                                <div class="profile-avatar"></div>
+                                <div class="profile-info">
+                                    <div class="profile-name"></div>
+                                    <span>@username</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Functional Features" data-feature="Wishlist/favorites">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Wishlist/favorites</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-wishlist">
+                            <div class="heart-icon">
+                                <svg viewBox="0 0 24 24" fill="#ef4444" stroke="#ef4444" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </div>
+                            <span>Saved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 5: Performance & Technical -->
+        <section id="page-5" class="page">
+            <div class="page-header">
+                <h1>Performance & Technical</h1>
+                <p class="page-description">Optimization and technical infrastructure features</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="API documentation">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">API documentation</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="code-text">GET /api/users</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Caching strategy">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Caching strategy</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="icon-text">CACHE HIT</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="CDN integration">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">CDN integration</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="globe-icon">CDN</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Code splitting">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Code splitting</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="split-box">chunk.js</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Compression (gzip, brotli)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Compression (gzip, brotli)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="compress">100KB &rarr; 25KB</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Database optimization">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Database optimization</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="db-icon">DB INDEX</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Error logging/monitoring">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Error logging/monitoring</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="log-entry">[LOG] Error tracked</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Image optimization">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Image optimization</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="img-opt">WebP</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Lazy loading (images, components)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Lazy loading (images, components)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="lazy">loading="lazy"</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Mobile responsive design">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Mobile responsive design</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-responsive-mini">
+                            <div class="device-d"></div>
+                            <div class="device-m"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="PWA capabilities (service workers, offline mode)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">PWA capabilities (service workers, offline mode)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="pwa-icon">PWA</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="SEO optimization (meta tags, structured data, sitemaps)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">SEO optimization (meta tags, structured data, sitemaps)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="seo-tag">&lt;meta&gt;</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="SSL/HTTPS">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">SSL/HTTPS</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="ssl-lock">HTTPS</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Version control integration">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Version control integration</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="git-icon">git commit</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Performance & Technical" data-feature="Web vitals optimization">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Web vitals optimization</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="vitals">LCP: 1.2s</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 6: Security Features -->
+        <section id="page-6" class="page">
+            <div class="page-header">
+                <h1>Security Features</h1>
+                <p class="page-description">Protection and authentication mechanisms</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="CAPTCHA/reCAPTCHA">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">CAPTCHA/reCAPTCHA</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-captcha">
+                            <div class="captcha-box">
+                                <input type="checkbox" disabled> I'm not a robot
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="Content Security Policy (CSP)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Content Security Policy (CSP)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="csp-tag">CSP: default-src</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="Data encryption">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Data encryption</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="encrypt">AES-256</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="DDoS protection">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">DDoS protection</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="shield">PROTECTED</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="Rate limiting">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Rate limiting</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="rate">100 req/min</span></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="Role-based access control (RBAC)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Role-based access control (RBAC)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-rbac">
+                            <span class="role admin">Admin</span>
+                            <span class="role user">User</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="Two-factor authentication (2FA)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Two-factor authentication (2FA)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-2fa">
+                            <div class="otp-boxes">
+                                <span>4</span><span>2</span><span>8</span><span>1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Security Features" data-feature="XSS/CSRF protection">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">XSS/CSRF protection</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-simple"><span class="xss">csrf_token</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 7: Admin/CMS Features -->
+        <section id="page-7" class="page">
+            <div class="page-header">
+                <h1>Admin/CMS Features</h1>
+                <p class="page-description">Backend management and content administration tools</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="Audit logs">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Audit logs</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-audit">
+                            <div class="log-row">[10:30] User created</div>
+                            <div class="log-row">[10:25] File updated</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="Bulk operations">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Bulk operations</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-bulk">
+                            <div class="bulk-select">
+                                <span class="sel"></span>
+                                <span class="sel"></span>
+                                <span class="sel"></span>
+                            </div>
+                            <span class="bulk-action">Delete All</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="Content management system">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Content management system</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-cms">
+                            <div class="cms-sidebar">
+                                <span>Pages</span>
+                                <span>Posts</span>
+                            </div>
+                            <div class="cms-editor"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="Content scheduling/publishing">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Content scheduling/publishing</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-schedule">
+                            <span class="draft">Draft</span>
+                            <span class="scheduled">Jan 20, 3pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="Media library">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Media library</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-media">
+                            <div class="media-thumb"></div>
+                            <div class="media-thumb"></div>
+                            <div class="media-thumb"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="User management">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">User management</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-users">
+                            <div class="user-row">
+                                <span class="avatar-sm"></span>
+                                <span>john@...</span>
+                                <span class="status-dot active"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="Version history/rollback">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Version history/rollback</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-version">
+                            <span class="ver">v3</span>
+                            <span class="ver">v2</span>
+                            <span class="ver old">v1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Admin/CMS Features" data-feature="Workflow approval">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Workflow approval</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-workflow">
+                            <span class="wf-step done">Submit</span>
+                            <span class="wf-arrow">&rarr;</span>
+                            <span class="wf-step active">Review</span>
+                            <span class="wf-arrow">&rarr;</span>
+                            <span class="wf-step">Approve</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 8: E-commerce Specific -->
+        <section id="page-8" class="page">
+            <div class="page-header">
+                <h1>E-commerce Specific</h1>
+                <p class="page-description">Online shopping and transaction features</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Abandoned cart recovery">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Abandoned cart recovery</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-abandoned">
+                            <span class="cart-mini">2 items</span>
+                            <span class="recover-btn">Complete order</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Coupon/discount codes">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Coupon/discount codes</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-coupon">
+                            <span class="coupon-code">SAVE20</span>
+                            <span class="discount">-20%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Inventory management">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Inventory management</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-inventory">
+                            <span class="stock-in">In Stock: 45</span>
+                            <span class="stock-low">Low: 3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Order tracking">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Order tracking</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-tracking">
+                            <div class="track-steps">
+                                <span class="ts done"></span>
+                                <span class="ts done"></span>
+                                <span class="ts active"></span>
+                                <span class="ts"></span>
+                            </div>
+                            <span class="track-label">In Transit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Product comparison">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Product comparison</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-compare">
+                            <div class="comp-item">A</div>
+                            <span>vs</span>
+                            <div class="comp-item">B</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Product reviews">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Product reviews</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-review">
+                            <div class="review-stars">*****</div>
+                            <span class="review-text">"Great product!"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Shipping calculator">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Shipping calculator</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-shipping">
+                            <span class="zip">ZIP: 10001</span>
+                            <span class="ship-cost">$4.99</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Size guides">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Size guides</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-size">
+                            <span class="sz">S</span>
+                            <span class="sz selected">M</span>
+                            <span class="sz">L</span>
+                            <span class="sz">XL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="E-commerce Specific" data-feature="Wishlist">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Wishlist</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-wish">
+                            <span class="heart-sm">+</span>
+                            <span>Add to Wishlist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 9: Communication -->
+        <section id="page-9" class="page">
+            <div class="page-header">
+                <h1>Communication</h1>
+                <p class="page-description">User interaction and support channels</p>
+            </div>
+            <div class="checklist-grid">
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="Chat support (live chat, chatbot)">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Chat support (live chat, chatbot)</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-chat">
+                            <div class="chat-msg bot">How can I help?</div>
+                            <div class="chat-msg user">Hi!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="Email templates">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Email templates</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-email">
+                            <div class="email-header">Subject: Welcome!</div>
+                            <div class="email-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="Forums/community">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Forums/community</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-forum">
+                            <div class="forum-post">Topic: Getting started <span class="replies">12</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="Help desk/ticketing">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Help desk/ticketing</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-ticket">
+                            <span class="ticket-id">#1234</span>
+                            <span class="ticket-status open">Open</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="Knowledge base">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Knowledge base</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-kb">
+                            <span class="kb-icon">?</span>
+                            <span>How to...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="SMS notifications">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">SMS notifications</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-sms">
+                            <span class="sms-icon">SMS</span>
+                            <span class="sms-text">Your code: 4821</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="Support ticket system">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Support ticket system</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-support">
+                            <span class="ticket-new">+ New Ticket</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <label class="checklist-item">
+                        <input type="checkbox" data-category="Communication" data-feature="Video calls integration">
+                        <span class="checkbox-custom"></span>
+                        <span class="feature-name">Video calls integration</span>
+                    </label>
+                    <div class="feature-sample">
+                        <div class="sample-video-call">
+                            <div class="video-frame"></div>
+                            <div class="video-controls">
+                                <span class="vc-btn">Mic</span>
+                                <span class="vc-btn end">End</span>
+                                <span class="vc-btn">Cam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 10: Summary -->
+        <section id="page-10" class="page">
+            <div class="page-header">
+                <h1>Summary & Export</h1>
+                <p class="page-description">Review your selected features and add project notes</p>
+            </div>
+            
+            <div class="summary-container">
+                <div class="summary-section">
+                    <h2>Selected Features</h2>
+                    <div id="selected-features" class="selected-features-list">
+                        <p class="empty-state">No features selected yet. Navigate to other pages to select features.</p>
+                    </div>
+                </div>
+
+                <div class="summary-section">
+                    <h2>Project Notes</h2>
+                    <textarea 
+                        id="project-notes" 
+                        class="project-notes" 
+                        placeholder="Add any additional notes, requirements, or specifications for your project here..."
+                        rows="10"
+                    ></textarea>
+                </div>
+
+                <div class="export-actions">
+                    <button id="download-markdown" class="btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Download Checklist (Markdown)
+                    </button>
+                    <button id="download-visitor-stats" class="btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Download Visitor Stats (Markdown)
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Total Visitors:</span>
+                    <span class="stat-value" id="visitor-count">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Your Location:</span>
+                    <span class="stat-value" id="visitor-location">Loading...</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Visit Time:</span>
+                    <span class="stat-value" id="visitor-time">--</span>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2025 Feature Checklist App | Built for net1io.com Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
