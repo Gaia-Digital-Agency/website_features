@@ -1,6 +1,6 @@
 # Website & App Features Checklist
 
-A comprehensive, interactive web application for tracking and managing website and application features across 9 main categories with 121 subcategories.
+A comprehensive, interactive web application for tracking and managing website and application features across 9 main categories with 170 subcategories.
 
 ## Project Background
 
@@ -9,7 +9,7 @@ This application was created for the net1io.com development team to provide a st
 ## Features
 
 - **9 Main Category Pages**: User Experience, UI Components, Content & Media, Functional Features, Performance & Technical, Security, Admin/CMS, E-commerce, and Communication
-- **121 Subcategories**: Comprehensive list of modern web features and capabilities
+- **170 Subcategories**: Comprehensive list of modern web features and capabilities
 - **Interactive Checkboxes**: Select features with instant visual feedback
 - **Summary Page**: Consolidated view of all selected features organized by category
 - **Project Notes**: Add custom requirements and specifications
@@ -203,20 +203,20 @@ Then navigate to: `http://localhost:8000`
 
 ## Feature Categories
 
-### 1. User Experience (15 features)
-Animations, navigation aids, loading states, responsive design, etc.
+### 1. User Experience (26 features)
+Animations, navigation aids, loading states, responsive design, accessibility toggles, infinite scroll, splash screens, etc.
 
-### 2. UI Components (18 features)
-Buttons, forms, modals, navigation elements, cards, etc.
+### 2. UI Components (29 features)
+Buttons, forms, modals, navigation elements, cards, mega menus, bento grids, pricing tables, range sliders, etc.
 
-### 3. Content & Media (17 features)
-Audio, video, galleries, blogs, maps, calendars, etc.
+### 3. Content & Media (28 features)
+Audio, video, galleries, blogs, maps, calendars, 3D viewers, code blocks, particle backgrounds, etc.
 
-### 4. Functional Features (23 features)
-Search, authentication, payments, bookings, exports, etc.
+### 4. Functional Features (27 features)
+Search, authentication, payments, bookings, exports, charts, heatmaps, countdown timers, command palettes, etc.
 
-### 5. Performance & Technical (15 features)
-Caching, optimization, SEO, PWA, monitoring, etc.
+### 5. Performance & Technical (19 features)
+Caching, optimization, SEO, PWA, monitoring, console emulators, feature flags, environment switchers, etc.
 
 ### 6. Security Features (8 features)
 Authentication, encryption, CAPTCHA, rate limiting, etc.
@@ -224,11 +224,11 @@ Authentication, encryption, CAPTCHA, rate limiting, etc.
 ### 7. Admin/CMS Features (8 features)
 Content management, user management, workflows, etc.
 
-### 8. E-commerce Specific (9 features)
-Shopping cart, inventory, orders, reviews, shipping, etc.
+### 8. E-commerce Specific (14 features)
+Shopping cart, inventory, orders, reviews, shipping, currency switchers, trust badges, product zoom, etc.
 
-### 9. Communication (8 features)
-Chat, email, forums, help desk, knowledge base, etc.
+### 9. Communication (11 features)
+Chat, email, forums, help desk, knowledge base, leaderboards, reaction pickers, user avatars, etc.
 
 ## Visitor Statistics
 
@@ -280,6 +280,7 @@ Built for the net1io.com development team (6-9 members) as a project planning an
 
 ## Version History
 
+- **v1.1.0** (January 2026): Expanded to 170 features with 49 new items across all categories including accessibility, advanced UX, e-commerce conversion, and developer tooling features
 - **v1.0.0** (January 2025): Initial release with 9 categories, 121 features, full mobile responsiveness, and markdown export
 
 ## License
